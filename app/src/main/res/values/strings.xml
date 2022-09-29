@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Довідник студентів</string>
+    <string name="hello_text">Привіт, студенти</string>
+    <string name="studentsList">Список студентів</string>
+    <string name="b_showList">Показати список</string>
+    <string name="b_showList2">Показати список 2</string>
+    <string name="b_sendMsg">Відправити повідомлення</string>
+    <string name="t_buttonPressed">Ви натиснули на кнопку!</string>
+</resources>
