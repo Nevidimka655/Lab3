@@ -32,6 +32,7 @@ class StudentsListActivity : AppCompatActivity() {
         binding.sendMsg.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
+                putExtra(Intent.EXTRA_EMAIL, "fff@gmail.com")
                 putExtra(Intent.EXTRA_TEXT, binding.text.toString())
                 putExtra(Intent.EXTRA_SUBJECT, getString(R.string.studentsList))
             }
